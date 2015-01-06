@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="javascript.css">
+<script src ="javascript.js">
+
+
+</script>
+
+
+</head>
+<body>
+	<h1 class="center"> Registration form </h1>
+	<p> *User ID:  
+	<input class="text" type="text" id="user_value" onchange=userid();> 
+	<label class="label" id="user_id"></label>
+</p>
+<p> *Password: 
+	<input class="text" type="password" id="password_value" ;>
+	
+</p>
+<p> *Confirm Password:
+	<input type="password" id="conpassword_value" onchange=password();>
+	<label class="label" id="password_id"></label>
+</p>
+<p> *Full Name:  
+	<input type="text" id="user_name" onchange=username();> 
+	<label class="label" id="username"></label>
+</p>
+<p> Address:  
+	<input type="text" style="width: 500px; padding: 20px" ;> 
+</p>
+<p> Country:
+	<select >
+  <option value="Pakistan">Pakistan</option>
+  <option value="Canada">Canada</option>
+  <option value="India">India</option>
+  <option value="USA">USA</option>
+</select>
+  </p>
+<p> *ZIP Code:  
+	<input type="text" id="zipcode_value" onchange=zipcode();> 
+	<label class="label" id="zip_id"></label>
+</p>
+<p> *Email:  
+	<input type="email" id="email_value" onchange=emailvalue();> 
+	<label class="label" id="emailvalue"></label>
+</p>
+<p> Sex:  
+<input type="radio" name="sex" value="male" checked>Male
+
+<input type="radio" name="sex" value="female">Female
+</p>
+
+<p> Language:
+	<input type="checkbox" name="language" value="English">English
+<input type="checkbox" name="language" value="Non English">Non English 
+
+</p>
+
+<p> About:  
+	<input type="text" style="width: 500px; padding: 20px" ;> 
+</p>
+
+<br>
+<br>
+<button type="button" onclick=submit()>SUBMIT </button>
+</body>
+</html>

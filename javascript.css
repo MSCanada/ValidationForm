@@ -1,0 +1,15 @@
+.center {
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center
+}
+.label{
+	color:red;
+}
+
+.text{
+
+margin-left: 10px;
+
+}
